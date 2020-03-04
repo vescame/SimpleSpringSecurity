@@ -25,4 +25,4 @@
 - DELETE
 - localhost:8080/v1/logout
 
-- ###### curl -XPOST $ENDPOINT_URL -H "Authorization: Bearer $VERY_LONG_RETRIEVED_TOKEN"
+- ###### curl -X$METHOD $ENDPOINT_URL -H "Authorization: Bearer $VERY_LONG_RETRIEVED_TOKEN"
