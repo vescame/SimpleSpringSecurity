@@ -1,6 +1,8 @@
 # Simple Spring Security
 ###### _spring security OAuth2 with autoconfigure_
 
+###### https://curl.haxx.se || git bash $ curl
+
 #### for user
 * curl -X POST --user client:123 localhost:8080/oauth/token -d 'grant_type=password&username=user&password=user' -H "Accept: application/json"
 #### for admin
